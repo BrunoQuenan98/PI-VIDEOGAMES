@@ -1,0 +1,63 @@
+.filtros{
+    background-color: rgba(0, 0, 0, 0.192);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 100px 10px 100px;
+    font-family:'Nunito', sans-serif;
+    font-size: 12px;
+}
+.select{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 0, 200);
+    color: rgb(43, 70, 223);
+    font-family:'Nunito', sans-serif;
+}
+.spanError{
+    display: block;
+    text-align: center;
+    font-family:'Nunito', sans-serif;
+    color: red;
+    border: none;
+    width: 400px;
+    margin: 10px auto 30px auto;
+    padding: 5px 25px 5px 25px;
+    border-radius: 40px;
+    border: 1px solid red;
+    font-size: 12px;
+}
+.btn{
+    color: white;
+    font-family:'Nunito', sans-serif;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to bottom right, rgb(165, 0, 180),rgb(43, 70, 223));
+    padding: 4px 10px 4px 10px;
+    border-radius: 40px;
+    margin: 0px 5px 0px 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(165, 0, 180),rgb(255, 0, 200));
+}
+.link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.crearJuego{
+    font-family:'Nunito', sans-serif;
+    color: white;
+    border: none;
+    width: 400px;
+    margin: 25px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom right, rgb(165, 0, 180),rgb(43, 70, 223));
+}
+.crearJuego:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(165, 0, 180),rgb(255, 0, 200));
+}

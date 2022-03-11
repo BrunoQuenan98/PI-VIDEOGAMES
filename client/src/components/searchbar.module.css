@@ -1,0 +1,28 @@
+.nav{
+    background-color: rgba(0, 0, 0, 0.192);
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+.buscador{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 0, 200);
+    padding: 5px 0px 5px 0px;
+    font-family:'Nunito', sans-serif;
+    color: white;
+}
+.btn{
+    padding: 5px 30px 5px 30px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to top right, rgb(255, 0, 200) 0%, rgb(43, 70, 223) 100%) 1;
+    font-family:'Nunito', sans-serif;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 200);
+    cursor: pointer;
+}
