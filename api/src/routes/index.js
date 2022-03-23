@@ -32,7 +32,7 @@ async function getApiInfo(){
     }));
 }
 
-
+//coment
 router.get('/videogames', async (req, res) =>{
     const { name } = req.query;
     if(name){
